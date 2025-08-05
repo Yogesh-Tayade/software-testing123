@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-04T23:26:01 IST" name="Default suite" finished-at="2025-08-04T23:26:09 IST" duration-ms="8764">
+    <groups>
+    </groups>
+    <test started-at="2025-08-04T23:26:01 IST" name="Default test" finished-at="2025-08-04T23:26:09 IST" duration-ms="8764">
+      <class name="RSETestCases.logintestcases">
+        <test-method is-config="true" signature="setupmethod()[pri:0, instance:RSETestCases.logintestcases@bccb269]" started-at="2025-08-04T23:26:01 IST" name="setupmethod" finished-at="2025-08-04T23:26:04 IST" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupmethod -->
+        <test-method signature="logindone()[pri:0, instance:RSETestCases.logintestcases@bccb269]" started-at="2025-08-04T23:26:04 IST" name="logindone" finished-at="2025-08-04T23:26:09 IST" duration-ms="5173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindone -->
+      </class> <!-- RSETestCases.logintestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
