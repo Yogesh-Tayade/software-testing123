@@ -2,6 +2,7 @@ package RSETestCases;
 
 import org.testng.annotations.Test;
 
+import RSEobjectRepsitory.addtocartlocators;
 import RSEobjectRepsitory.loginlocators;
 
 public class logintestcases extends baseclass{
@@ -14,5 +15,8 @@ public class logintestcases extends baseclass{
 			obj.username().sendKeys(username);
 			obj.password().sendKeys(pass);
 			obj.loginbtn().click();
+		
+			addtocartlocators add=new addtocartlocators(driver);
+			add.addIntocart().click();;
 	}
 }
